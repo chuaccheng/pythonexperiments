@@ -3,7 +3,7 @@ now = datetime.now()
 
 
 print 'what time is it'
-print '%s:%s:%s %s/%s/%s' % (now.second, now.minute, now.hour, now.month, now.day, now.year)
+print '%s:%s:%s %s/%s/%s' % (now.hour, now.minute, now.second, now.month, now.day, now.year)
 print 'time to get a watch'
 
 
